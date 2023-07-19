@@ -8,8 +8,13 @@ class SplahPage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: AppBar(title: Text(''),),
-      body: Container(),
+      appBar: AppBar(title: Text('Principal'),),
+      body: Center(
+            child: ElevatedButton(
+            onPressed: () => Navigator.of(context).pushNamed('/login'),
+            child: const Text('Login'),
+          ),
+      ),
     );
   }
 }
