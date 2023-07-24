@@ -10,4 +10,5 @@ br.com.academiadoflutter.todo_list_provider.app-rs-8 /home/sestito/AcademiaFlutt
 br.com.academiadoflutter.todo_list_provider.app-mergeDebugResources-9 /home/sestito/AcademiaFlutter/ProjetoMobile_Academy/build/app/intermediates/incremental/debug/mergeDebugResources/merged.dir
 br.com.academiadoflutter.todo_list_provider.app-mergeDebugResources-10 /home/sestito/AcademiaFlutter/ProjetoMobile_Academy/build/app/intermediates/incremental/debug/mergeDebugResources/stripped.dir
 br.com.academiadoflutter.todo_list_provider.app-merged_res-11 /home/sestito/AcademiaFlutter/ProjetoMobile_Academy/build/app/intermediates/merged_res/debug
-br.com.academiadoflutter.todo_list_provider.app-packaged_res-12 /home/sestito/AcademiaFlutter/ProjetoMobile_Academy/build/sqflite/intermediates/packaged_res/debug
+br.com.academiadoflutter.todo_list_provider.app-packaged_res-12 /home/sestito/AcademiaFlutter/ProjetoMobile_Academy/build/path_provider_android/intermediates/packaged_res/debug
+br.com.academiadoflutter.todo_list_provider.app-packaged_res-13 /home/sestito/AcademiaFlutter/ProjetoMobile_Academy/build/sqflite/intermediates/packaged_res/debug

@@ -82,7 +82,7 @@ flutter:
   fonts:
     - family: Todo_list_icons
       fonts:
-        - asset: assets/fonts/Todo_list_icons.ttf.ttf
+        - asset: assets/fonts/Todo_list_icons.ttf
   #       - asset: fonts/Schyler-Italic.ttf
   #         style: italic
   #   - family: Trajan Pro
