@@ -89,21 +89,26 @@ class LoginPage extends StatelessWidget {
                                 children: [
                                   const SizedBox(height: 30,),
                          
-                                  Row(
-                                    mainAxisAlignment: MainAxisAlignment.center,
-                                    children: [
-                                      const Text('Não tem cadastro? ',
-                                       style: TextStyle(
-                                          fontSize: 10,
-                                        ),),
-                                      TextButton(onPressed: (){}, 
-                                      child: const Text('Cadastre-se',
-                                       style: TextStyle(
-                                          fontSize: 10,
-                                        ),),
-                                      ),
-                                    ],
+                            Container(
+                              width: double.infinity, // This makes the container expand to the full available width
+                              padding: const EdgeInsets.symmetric(vertical: 20, horizontal: 40),
+                              child: ElevatedButton(
+                                onPressed: () {
+                                  Navigator.of(context).pushNamed('/register');
+                                },
+                                child: Padding(
+                                  padding: EdgeInsets.all(5.0),
+                                  child: const Text('Sou novo aqui! Cadastre-se'),
+                                ),
+                                style: ElevatedButton.styleFrom(
+                                  primary: Colors.orange, // Set the background color to red
+                                  shape: RoundedRectangleBorder(
+                                    borderRadius: BorderRadius.circular(10),
                                   ),
+                                ),
+                              ),
+                            ),
+
                                           Row(
                                     mainAxisAlignment: MainAxisAlignment.center,
                                     children: [
