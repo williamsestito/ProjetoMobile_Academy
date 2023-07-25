@@ -1,4 +1,4 @@
-#Mon Jul 24 16:05:57 BRT 2023
+#Tue Jul 25 08:53:12 BRT 2023
 base.0=/home/sestito/AcademiaFlutter/ProjetoMobile_Academy/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex
